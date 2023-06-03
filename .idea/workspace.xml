@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33944518-2b19-4de7-ad3d-1520aa4a0284" name="Changes" comment="Dodanie podstaw projektu">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="33944518-2b19-4de7-ad3d-1520aa4a0284" name="Changes" comment="Dodanie klasy SuperStart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projektkalkulator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projektkalkulator/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +46,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/szewc/IdeaProjects/Projekt-Kalkulator/src/main/resources/com/example/projektkalkulator/hello-view.fxml"
+    "last_opened_file_path": "C:/Users/szewc/IdeaProjects/Projekt-Kalkulator/src/main/resources/com/example/projektkalkulator/hello-view.fxml",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685630303300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodanie klasy SuperStart i kilku dodatków">
+      <created>1685643262299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685643262299</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dodanie klasy SuperStart">
+      <created>1685643586600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685643586600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +106,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dodanie podstaw projektu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie podstaw projektu" />
+    <MESSAGE value="Dodanie klasy SuperStart i kilku dodatków" />
+    <MESSAGE value="Dodanie klasy SuperStart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie klasy SuperStart" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
