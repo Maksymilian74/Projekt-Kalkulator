@@ -14,7 +14,7 @@
          <children>
             <Pane layoutX="9.0" layoutY="14.0" prefHeight="89.0" prefWidth="430.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result" alignment="CENTER_RIGHT" layoutX="19.0" layoutY="24.0" prefHeight="42.0" prefWidth="388.0" text="0.0">
+                  <Label fx:id="buttonResult" alignment="CENTER_RIGHT" layoutX="19.0" layoutY="24.0" prefHeight="42.0" prefWidth="388.0" text="0.0">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -36,9 +36,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="9.0" layoutY="113.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button7" layoutX="9.0" layoutY="113.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result1" alignment="CENTER_RIGHT" layoutX="37.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="7">
+                  <Label alignment="CENTER_RIGHT" layoutX="37.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="7">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -60,9 +60,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="118.0" layoutY="113.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button8" layoutX="118.0" layoutY="113.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result11" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="8">
+                  <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="8">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -85,9 +85,9 @@
                   </Label>
                </children>
             </Pane>
-            <Pane layoutX="227.0" layoutY="113.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button9" layoutX="227.0" layoutY="113.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result111" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="9">
+                  <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="9">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -109,9 +109,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="336.0" layoutY="113.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="buttonDivide" layoutX="336.0" layoutY="113.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121111116" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onSymbolClicked" prefHeight="42.0" prefWidth="25.0" text="/">
+                  <Label fx:id="result121111116" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="/">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -133,9 +133,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="9.0" layoutY="222.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button4" layoutX="9.0" layoutY="222.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result12" alignment="CENTER_RIGHT" layoutX="36.0" layoutY="33.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="4">
+                  <Label alignment="CENTER_RIGHT" layoutX="36.0" layoutY="33.0" prefHeight="42.0" prefWidth="25.0" text="4">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -157,9 +157,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="336.0" layoutY="222.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="buttonMultiply" layoutX="336.0" layoutY="222.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121111115" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onSymbolClicked" prefHeight="42.0" prefWidth="25.0" text="*">
+                  <Label fx:id="result121111115" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="*">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -181,9 +181,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="118.0" layoutY="222.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button5" layoutX="118.0" layoutY="222.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="5">
+                  <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="5">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -205,9 +205,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="227.0" layoutY="222.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button6" layoutX="227.0" layoutY="222.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result1211" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="6">
+                  <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="6">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -229,9 +229,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="9.0" layoutY="331.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button1" layoutX="9.0" layoutY="331.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result12111" alignment="CENTER_RIGHT" layoutX="40.0" layoutY="31.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="1">
+                  <Label fx:id="button1" alignment="CENTER_RIGHT" layoutX="40.0" layoutY="31.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="1">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -253,9 +253,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="9.0" layoutY="440.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="buttonClear" layoutX="9.0" layoutY="440.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121111111" alignment="CENTER_RIGHT" layoutX="37.0" layoutY="29.0" onMouseClicked="#onSymbolClicked" prefHeight="42.0" prefWidth="25.0" text="C">
+                  <Label fx:id="result121111111" alignment="CENTER_RIGHT" layoutX="37.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="C">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -277,9 +277,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="227.0" layoutY="331.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button3" layoutX="227.0" layoutY="331.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result1211111" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="3">
+                  <Label fx:id="result1211111" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="3">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -301,9 +301,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="118.0" layoutY="440.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button0" layoutX="118.0" layoutY="440.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result12111111" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="0">
+                  <Label fx:id="result12111111" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="0">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -325,9 +325,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="118.0" layoutY="331.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="button2" layoutX="118.0" layoutY="331.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121111" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="2">
+                  <Label fx:id="result121111" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="2">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -349,9 +349,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="227.0" layoutY="440.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="buttonEquals" layoutX="227.0" layoutY="440.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121111112" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onSymbolClicked" prefHeight="42.0" prefWidth="25.0" text="=">
+                  <Label fx:id="result121111112" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="=">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -373,9 +373,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="336.0" layoutY="331.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="buttonMinus" layoutX="336.0" layoutY="331.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121111114" alignment="CENTER_RIGHT" layoutX="41.0" layoutY="29.0" onMouseClicked="#onSymbolClicked" prefHeight="42.0" prefWidth="18.0" text="-">
+                  <Label fx:id="result121111114" alignment="CENTER_RIGHT" layoutX="41.0" layoutY="29.0" prefHeight="42.0" prefWidth="18.0" text="-">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -397,9 +397,9 @@
                      </textFill>
                   </Label>
                </children></Pane>
-            <Pane layoutX="336.0" layoutY="440.0" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+            <Pane fx:id="buttonPlus" layoutX="336.0" layoutY="440.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="result121111113" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" onMouseClicked="#onSymbolClicked" prefHeight="42.0" prefWidth="25.0" text="+">
+                  <Label fx:id="result121111113" alignment="CENTER_RIGHT" layoutX="38.0" layoutY="29.0" prefHeight="42.0" prefWidth="25.0" text="+">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
