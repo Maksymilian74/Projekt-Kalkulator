@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33944518-2b19-4de7-ad3d-1520aa4a0284" name="Changes" comment="Działający kalkulator">
+    <list default="true" id="33944518-2b19-4de7-ad3d-1520aa4a0284" name="Changes" comment="Kolejne poprawki + dodanie własnych przycisków do zamykania i minimalizowania">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projektkalkulator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projektkalkulator/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685865619868</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Kolejne poprawki + dodanie własnych przycisków do zamykania i minimalizowania">
+      <created>1685904011159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685904011159</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +138,8 @@
     <MESSAGE value="Drobne poprawki i praca nad wyglądem okienka" />
     <MESSAGE value="Drobne poprawki i zrobienie wyglądu kalkulatora" />
     <MESSAGE value="Działający kalkulator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Działający kalkulator" />
+    <MESSAGE value="Kolejne poprawki + dodanie własnych przycisków do zamykania i minimalizowania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kolejne poprawki + dodanie własnych przycisków do zamykania i minimalizowania" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -20,9 +20,9 @@ public class HelloApplication extends Application {
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.setResizable(false);
         stage.setTitle("Kalkulator");
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("images/icon.png")));
         ((HelloController)fxmlLoader.getController()).init(stage);
         stage.show();
-
 
     }
 
