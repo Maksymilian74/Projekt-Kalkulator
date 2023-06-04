@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.paint.Color?>
@@ -231,7 +233,7 @@
                </children></Pane>
             <Pane fx:id="button1" layoutX="9.0" layoutY="331.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
                <children>
-                  <Label fx:id="button1" alignment="CENTER_RIGHT" layoutX="40.0" layoutY="31.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="1">
+                  <Label alignment="CENTER_RIGHT" layoutX="40.0" layoutY="31.0" onMouseClicked="#onNumberClicked" prefHeight="42.0" prefWidth="25.0" text="1">
                      <font>
                         <Font name="Arial" size="36.0" />
                      </font>
@@ -423,6 +425,27 @@
                </children></Pane>
          </children>
       </Pane>
-      <Pane prefHeight="47.0" prefWidth="460.0" />
+      <Pane fx:id="titlePane" prefHeight="47.0" prefWidth="460.0">
+         <children>
+            <Label layoutX="77.0" layoutY="13.0" text="Kalkulator" textFill="#fafafa">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="buttonClose" fitHeight="16.0" fitWidth="16.0" layoutX="418.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/close.png" />
+               </image></ImageView>
+            <ImageView fx:id="buttonMinimize" fitHeight="16.0" fitWidth="16.0" layoutX="393.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/hide.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="40.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/icon.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
    </children>
 </AnchorPane>

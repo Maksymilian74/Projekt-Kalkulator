@@ -2,6 +2,7 @@ package com.example.projektkalkulator;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -9,6 +10,8 @@ import javafx.stage.Stage;
 public class HelloController {
     @FXML private Pane titlePane;
     @FXML private Label buttonResult;
+    @FXML private ImageView buttonMinimize;
+    @FXML private ImageView buttonClose;
 
     private double x, y;
     private double num1 = 0;
@@ -23,6 +26,9 @@ public class HelloController {
             stage.setX(mouseEvent.getScreenX()-x);
             stage.setY(mouseEvent.getScreenY()-y);
         });
+
+        buttonClose.setOnMouseClicked(mouseEvent -> stage.close());
+        buttonMinimize.setOnMouseClicked(mouseEvent -> stage.setIconified(true));
     }
 
     @FXML
@@ -57,5 +63,7 @@ public class HelloController {
             buttonResult.setText(String.valueOf(0.0));
         }
     }
+
+
 
 }
