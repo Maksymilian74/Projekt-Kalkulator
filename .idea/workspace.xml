@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33944518-2b19-4de7-ad3d-1520aa4a0284" name="Changes" comment="Dodanie klasy SuperStart">
+    <list default="true" id="33944518-2b19-4de7-ad3d-1520aa4a0284" name="Changes" comment="Drobne poprawki i praca nad wyglądem okienka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projektkalkulator/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projektkalkulator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projektkalkulator/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685643586600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Drobne poprawki i praca nad wyglądem okienka">
+      <created>1685829181035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685829181036</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,7 +116,8 @@
     <MESSAGE value="Dodanie podstaw projektu" />
     <MESSAGE value="Dodanie klasy SuperStart i kilku dodatków" />
     <MESSAGE value="Dodanie klasy SuperStart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie klasy SuperStart" />
+    <MESSAGE value="Drobne poprawki i praca nad wyglądem okienka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drobne poprawki i praca nad wyglądem okienka" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

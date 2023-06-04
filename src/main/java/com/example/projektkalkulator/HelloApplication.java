@@ -17,8 +17,8 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 460, 600);
         HelloController hello = fxmlLoader.getController();
         stage.setResizable(false);
-        scene.setFill(Color.TRANSPARENT);
-        stage.initStyle(StageStyle.TRANSPARENT);
+       // scene.setFill(Color.TRANSPARENT);
+       // stage.initStyle(StageStyle.TRANSPARENT);
         stage.setTitle("Kalkulator");
         stage.setScene(scene);
         stage.show();
